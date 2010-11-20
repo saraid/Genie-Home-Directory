@@ -21,6 +21,7 @@ match observed You learned something useful
 match observed you grasp more of its patter
 match stupid You are unable to make use
 match fullpool Too many futures cloud your mind - you learn nothing.
+match clouds Clouds obscure the sky
 put observe %constellation in sky
 matchwait 10
 goto start
@@ -35,6 +36,9 @@ put cast
 put #script resume all
 return 
 
+clouds:
+gosub castPG
+goto start
 fullpool:
 stupid:
 observed:
@@ -60,7 +64,6 @@ var LOCAL
 predict:
 if (%t >= %PREDICT_TIME && $Astrology.LearningRate < 24) then
 {
-  echo "*** Attempting prediction"
   var PREDICT_TIME %t
   math PREDICT_TIME add 600
   if (length("%LOCAL") = 0) then var LOCAL %skillset1
@@ -78,14 +81,16 @@ if (%t >= %PREDICT_TIME && $Astrology.LearningRate < 24) then
       }
     }
   }
-  matchre predict no|feeble|weak|fledgling|modest|decent
-  matchre predictFuture significant|potent|insightful|powerful|complete
+  matchre predict no|feeble|weak
+  matchre predictFuture fledgling|modest|decent|significant|potent|insightful|powerful|complete
   put predict state %LOCAL
   matchwait 5
   goto predict
 
   predictFuture:
-  put predict future $charactername %LOCAL
+  send predict future $charactername %LOCAL
+  waitfor the mists of time begin to part
+  put predict analyze
 }
 
 wait:
