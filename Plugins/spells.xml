@@ -1,0 +1,600 @@
+<?xml version="1.0"?>
+<Spells>
+  <Spell name="Aesandry Darlaeth">
+    <type>Buff</type>
+    <shortCode>WHAT</shortCode>
+    <variable>spellAD</variable>
+    <manaType>Lunar</manaType>
+    <description>This needs the description, spell type, mana type and short code.</description>
+    <minMana>0</minMana>
+    <maxMana>0</maxMana>
+    <maxDuration>0</maxDuration>
+    <baseDuration>0</baseDuration>
+    <durationModifier>0</durationModifier>
+    <start>You feel your muscles start to burn, and you are filled with great energy and confidence.</start>
+    <end>Blah</end>
+  </Spell>
+  <Spell name="Anti-Stun">
+    <type>Buff</type>
+    <shortCode>WHAT</shortCode>
+    <variable>spellAS</variable>
+    <manaType>Lunar</manaType>
+    <description>This needs the description, spell type, mana type and short code.</description>
+    <minMana>0</minMana>
+    <maxMana>0</maxMana>
+    <maxDuration>0</maxDuration>
+    <baseDuration>0</baseDuration>
+    <durationModifier>0</durationModifier>
+    <start>A dull orange glow settles around you.</start>
+    <end>The dull orange glow fades from around you.</end>
+    <noReplace>The spell fails to meld with the one already around you.</noReplace>
+  </Spell>
+  <Spell name="Aura Sight">
+    <type>Buff</type>
+    <shortCode>WHAT</shortCode>
+    <variable>spellAUS</variable>
+    <manaType>Lunar</manaType>
+    <description>This needs the description, spell type, mana type and short code.</description>
+    <minMana>6</minMana>
+    <maxMana>60</maxMana>
+    <maxDuration>0</maxDuration>
+    <baseDuration>0</baseDuration>
+    <durationModifier>0</durationModifier>
+    <start>Your color vision blossoms with new depth</start>
+    <end>Your color vision returns to normal, causing the auras you see to dim and vanish.</end>
+  </Spell>
+  <Spell name="Benediction">
+    <type>Buff</type>
+    <shortCode>bene</shortCode>
+    <variable>spellBenediction</variable>
+    <manaType>Holy</manaType>
+    <description>The Benediction spell allows a Cleric to manifest their faith and devotion into a blessing of enhanced physical prowess. Under the effects of this blessing a Cleric may find that their body moves with greater ease, their blows fall with greater force than before, or even that their strikes land home with far greater accuracy. Be warned, however, that this is certainly not a spell for the weak of mind, spirit, or faith.</description>
+    <minMana>5</minMana>
+    <maxMana>40</maxMana>
+    <maxDuration>941</maxDuration>
+    <baseDuration>11</baseDuration>
+    <durationModifier>26</durationModifier>
+    <start>You suddenly feel more limber</start>
+    <start>You make a holy gesture and intone reverently, "Asketi, hear my plea!"</start>
+    <end>You feel the divinity seep from your bones as the previous blessing</end>
+  </Spell>
+  <Spell name="Bless">
+    <type>Buff</type>
+    <shortCode>WHAT</shortCode>
+    <variable>spellBless</variable>
+    <manaType>Lunar</manaType>
+    <description>This needs the description, spell type, mana type and short code.</description>
+    <minMana>0</minMana>
+    <maxMana>0</maxMana>
+    <maxDuration>0</maxDuration>
+    <baseDuration>0</baseDuration>
+    <durationModifier>0</durationModifier>
+    <start>A glistening gold glow enwreathes your body.</start>
+    <end>Your body tingles as the glistening gold glow fades from around you.</end>
+  </Spell>
+  <Spell name="Blood Staunching">
+    <type>Buff</type>
+    <shortCode>WHAT</shortCode>
+    <variable>spellBS</variable>
+    <manaType>Lunar</manaType>
+    <description>This needs the description, spell type, mana type and short code.</description>
+    <minMana>0</minMana>
+    <maxMana>0</maxMana>
+    <maxDuration>0</maxDuration>
+    <baseDuration>0</baseDuration>
+    <durationModifier>0</durationModifier>
+    <start>A sudden sensation of warmth spreads through your body, before settling itself between your shoulders.</start>
+    <end>You feel the warmth between your shoulders dissipate.</end>
+    <end>The binding force which has been holding your wounds closed wears off, and you begin bleeding again.</end>
+  </Spell>
+  <Spell name="Cage of Light">
+    <type>Buff</type>
+    <shortCode>WHAT</shortCode>
+    <variable>spellCOL</variable>
+    <manaType>Lunar</manaType>
+    <description>This needs the description, spell type, mana type and short code.</description>
+    <minMana>10</minMana>
+    <maxMana>43</maxMana>
+    <maxDuration>1232</maxDuration>
+    <baseDuration>133</baseDuration>
+    <durationModifier>0</durationModifier>
+    <start>With a dull roar, flares of blazing crimson light explode into being and swirl around you, covering you in a protective cage of pulsing celestial fire.</start>
+    <start>Tendrils of blue-white light silently shimmer into view and wrap around you, covering you in a protective cage of light that forms a lattice of geometric shapes.</start>
+    <start>With a barely perceptible screech, nearby shadows thicken and ooze toward you, covering you in a protective cage of shadows made of thin, crazed lines.</start>
+    <end>Your cage of light lsoes cohesion and drifts away as motes of blue-white-light.</end>
+    <end>Your cage of celestial fire erupts in a flare of crimson light and vanishes.</end>
+    <end>Your cages of shadows shatters, the fragments dissipating as they fall away.</end>
+  </Spell>
+  <Spell name="Caiman Swim">
+    <type>Buff</type>
+    <shortCode>cais</shortCode>
+    <variable>spellCAIS</variable>
+    <manaType>Life</manaType>
+    <description>The Caiman Swim spell mimics the abilities of its namesake, invoking the wilds to infuse the target with improved swimming skill. With higher levels of skill, the caster can also hold his breath as if he were a caiman. You may also notice that if cast in marshlands, swampy areas, or other wet places, it is more effective.</description>
+    <minMana>8</minMana>
+    <maxMana>63</maxMana>
+    <maxDuration>0</maxDuration>
+    <baseDuration>0</baseDuration>
+    <durationModifier>0</durationModifier>
+    <start>Cool waves of force shiver down your legs and through your arms,</start>
+    <end>With a shiver, you feel a power drain</end>
+    <noReplace>The pattern fails to bond with the Caiman Swim spell already in effect upon you.</noReplace>
+  </Spell>
+  <Spell name="Cheetah Swiftness">
+    <type>Buff</type>
+    <shortCode>WHAT</shortCode>
+    <variable>spellCS</variable>
+    <manaType>Lunar</manaType>
+    <description>This needs the description, spell type, mana type and short code.</description>
+    <minMana>0</minMana>
+    <maxMana>0</maxMana>
+    <maxDuration>0</maxDuration>
+    <baseDuration>0</baseDuration>
+    <durationModifier>0</durationModifier>
+    <start>You feel a bit lighter on your feet</start>
+    <start>You feel as quick as a hunting cat</start>
+    <start>You feel as if you could outrun a prize racehorse</start>
+    <end>You feel your agility and reflexes return to normal.</end>
+  </Spell>
+  <Spell name="Claws of the Cougar">
+    <type>Buff</type>
+    <shortCode>cotc</shortCode>
+    <variable>spellCOTC</variable>
+    <manaType>Life</manaType>
+    <description>The Claws of the Cougar spell offers the Ranger the power of the big cat. As a cougar strikes with a mighty claw, so will the Ranger strike with his best melee weapon. As the cougar's claw slices through the annoying webs of the wolf spider, so shall the ranger be able to better escape his bonds.</description>
+    <minMana>15</minMana>
+    <maxMana>55</maxMana>
+    <maxDuration>1243</maxDuration>
+    <baseDuration>267</baseDuration>
+    <durationModifier>24.4</durationModifier>
+    <start>Your hand clenches seeking a weapon to wield or a bond to break.</start>
+    <end>A sharp but passing pain runs through your hand as you no longer feel the skills of the cougar reside within.</end>
+  </Spell>
+  <Spell name="Clear Vision">
+    <type>Buff</type>
+    <shortCode>cv</shortCode>
+    <variable>spellCV</variable>
+    <manaType>Lunar</manaType>
+    <description>The Clear Vision spell merely enhances one's perception. It may be useful when casting other Perception spells. Rumors persist that Nomads of the Arid Steppe have an advantage when using this spell.</description>
+    <minMana>4</minMana>
+    <maxMana>70</maxMana>
+    <maxDuration>1029</maxDuration>
+    <baseDuration>130</baseDuration>
+    <durationModifier>0</durationModifier>
+    <start>You feel more aware of your environment.</start>
+    <start>You briefly feel less aware of your environment, then suddenly feel more aware again.</start>
+    <end>You feel less aware of your environment.</end>
+  </Spell>
+  <Spell name="Courage">
+    <type>Buff</type>
+    <shortCode>WHAT</shortCode>
+    <variable>spellCourage</variable>
+    <manaType>Lunar</manaType>
+    <description>This needs the description, spell type, mana type and short code.</description>
+    <minMana>0</minMana>
+    <maxMana>0</maxMana>
+    <maxDuration>0</maxDuration>
+    <baseDuration>0</baseDuration>
+    <durationModifier>0</durationModifier>
+    <start>You feel your courage bolstered</start>
+    <end>You falter for a moment as your extra courage slips away.</end>
+  </Spell>
+  <Spell name="Earth Meld">
+    <type>Buff</type>
+    <shortCode>WHAT</shortCode>
+    <variable>spellEM</variable>
+    <manaType>Life</manaType>
+    <description>The Earth Meld spell will forge a connection to your surroundings, thereby revealing places of concealment you may otherwise miss. It is important to note that the more energy you make available to the pattern, the more powerful it will become. It is at it's strongest when first cast, it's effects lessening over time... 
+Greater skill with magic will lessen how quickly the insight fades for those of our guild, though not for those who do not walk our path. </description>
+    <minMana>8</minMana>
+    <maxMana>63</maxMana>
+    <maxDuration>0</maxDuration>
+    <baseDuration>0</baseDuration>
+    <durationModifier>0</durationModifier>
+    <start>Your mind races as your surroundings snap into sharp focus, places of concealment you never would have noticed suddenly revealed for your use.</start>
+    <end>You feel the Earth Meld spell dissipate completely</end>
+  </Spell>
+  <Spell name="Ease Burden">
+    <type>Buff</type>
+    <shortCode>ease</shortCode>
+    <variable>spellEase</variable>
+    <manaType>Lunar</manaType>
+    <description>The Ease Burden spell does precisely what the name implies. Through the careful weaving of energy, the caster is able to ease the effects of burden on the recipient of the spell.</description>
+    <minMana>3</minMana>
+    <maxMana>71</maxMana>
+    <maxDuration>878</maxDuration>
+    <baseDuration>378</baseDuration>
+    <durationModifier>10</durationModifier>
+    <start>Pale yellow sparks begin to flicker over your body, infusing you with a sense of strength and vigor.</start>
+    <end>You feel a weight settle over you, and realize the magic that has been easing your burden has faded.</end>
+  </Spell>
+  <Spell name="Gift of Life">
+    <type>Buff</type>
+    <shortCode>WHAT</shortCode>
+    <variable>spellGOL</variable>
+    <manaType>Lunar</manaType>
+    <description>This needs the description, spell type, mana type and short code.</description>
+    <minMana>0</minMana>
+    <maxMana>0</maxMana>
+    <maxDuration>0</maxDuration>
+    <baseDuration>0</baseDuration>
+    <durationModifier>0</durationModifier>
+    <start>Pride and confidence in your empathic abilities fills you from within, accompanied by a subtle sense of hardiness.</start>
+    <end>You no longer feel the beneficial effects of the Gift of Life spell.</end>
+  </Spell>
+  <Spell name="Hands of Lirisa">
+    <type>Buff</type>
+    <shortCode>hol</shortCode>
+    <variable>spellHOL</variable>
+    <manaType>Elemental</manaType>
+    <description>The Hands of Lirisa spell is named after the famous Ranger of Lanival's time, devout follower of Kuniyo. She was a great tracker and tireless hunter, and like most Rangers, very adept at surviving the wilds. As such, this spell enhances the caster's ability to skin creatures for a while. Some claim they hear Lirisa's voice when they cast this, urging them on to greater deeds.</description>
+    <minMana>3</minMana>
+    <maxMana>64</maxMana>
+    <maxDuration>0</maxDuration>
+    <baseDuration>0</baseDuration>
+    <durationModifier>0</durationModifier>
+    <start>You hear a soft murmuring sound</start>
+    <start>A sound like a soft murmuring fills your ears</start>
+    <end>You feel less confident about your skinning abilities</end>
+  </Spell>
+  <Spell name="Innocence">
+    <type>Buff</type>
+    <shortCode>WHAT</shortCode>
+    <variable>spellInnocence</variable>
+    <manaType>Lunar</manaType>
+    <description>This needs the description, spell type, mana type and short code.</description>
+    <minMana>0</minMana>
+    <maxMana>0</maxMana>
+    <maxDuration>0</maxDuration>
+    <baseDuration>0</baseDuration>
+    <durationModifier>0</durationModifier>
+    <start>Your Innocence spell lingers, providing you with brief short term protection.</start>
+    <end>The lingering effects of your Innocence spell fade away.</end>
+    <noReplace>Tapering ribbons of soft yellow begin to stretch across the area, but the existing Innocence spell upon you disrupts their effects.</noReplace>
+  </Spell>
+  <Spell name="Major Physical Protection">
+    <type>Buff</type>
+    <shortCode>mapp</shortCode>
+    <variable>spellMAPP</variable>
+    <manaType>Holy</manaType>
+    <description>The Major Physical Protection spell will impart the caster and his or her group with a temporarily enhanced ability to avoid attacks. Those who receive the benefit of the essence surrounding the Cleric must take care not to stray too far from the source, lest the effect fade prematurely. 
+Through much study, scholars of the Holy arts have surmised that the spell enhances one's inherent ability to evade -- therefore the stronger one's intrinsic ability to evade is, the more effective the spell's pattern becomes. The strength and duration of the spell is affected by the amount of mana successfully channeled into the matrix. </description>
+    <minMana>15</minMana>
+    <maxMana>45</maxMana>
+    <maxDuration>1300</maxDuration>
+    <baseDuration>329</baseDuration>
+    <durationModifier>32.36</durationModifier>
+    <start>A bright silver nimbus roars up around you as streaks of steel-blue light descend in a convex field.</start>
+    <end>The field of silver-blue light dissipates from around you.</end>
+  </Spell>
+  <Spell name="Manifest Force">
+    <type>Buff</type>
+    <shortCode>maf</shortCode>
+    <variable>spellMAF</variable>
+    <manaType>Lunar</manaType>
+    <description>The Manifest Force pattern simply attempts to channel spell energy into a brute physical force. While it lacks the finesse necessary for any kind of assault or delicate manipulation, it can serve as an effective barrier against attacks. The barrier absorbs a portion of incoming blows, but suffers structural damage in the process.
+
+Due to the physical and somewhat imprecise nature of this spell, the caster will find it easier to manage when casting on other people, although sufficient skill can help overcome this constraint. While the spell does not require active concentration from the caster, the structure of the pattern is such that recipients straying far from the caster will find the force loses its cohesion and collapses. 
+</description>
+    <minMana>10</minMana>
+    <maxMana>70</maxMana>
+    <maxDuration>0</maxDuration>
+    <baseDuration>0</baseDuration>
+    <durationModifier>0</durationModifier>
+    <start>The scintillating light writhes and twists, abruptly coalescing into a translucent field before blinking out of sight.</start>
+    <end>The air around you shimmers with a weak yellow light that quickly disperses.</end>
+  </Spell>
+  <Spell name="Minor Physical Protection">
+    <type>Buff</type>
+    <shortCode>MPP</shortCode>
+    <variable>spellMPP</variable>
+    <manaType>Holy</manaType>
+    <description>The Minor Physical Protection spell decreases the power of incoming strikes against the target for its duration. This spell matrix is especially effective against undead foes. The strength and duration of the spell is affected by the amount of mana successfully channeled into the pattern. </description>
+    <minMana>5</minMana>
+    <maxMana>55</maxMana>
+    <maxDuration>1833</maxDuration>
+    <baseDuration>317</baseDuration>
+    <durationModifier>33.6</durationModifier>
+    <start>You are bathed in a soft silver glow for a moment.</start>
+    <end>The soft silver glow fades from around you.</end>
+  </Spell>
+  <Spell name="Persistence of Mana">
+    <type>Buff</type>
+    <shortCode>pom</shortCode>
+    <variable>spellPOM</variable>
+    <manaType>Holy</manaType>
+    <description>Through intense study and concentration, the Holy Mage learns to build upon what they have learned from Meraud's Gift. The Persistence of Mana spell will allow her to rend apart the normal boundaries of her magical prowess, extending those horizons to new heights. The process is painful and taxing upon her concentration, but the rewards are quite bountiful - as long as the spell remains in effect, her capacity to harness mana will be bolstered.</description>
+    <minMana>5</minMana>
+    <maxMana>50</maxMana>
+    <maxDuration>2972</maxDuration>
+    <baseDuration>155</baseDuration>
+    <durationModifier>62.6</durationModifier>
+    <start>A searing pain spreads through your fingertips</start>
+    <end>A brief flicker of pain pulses through your veins as the expanded horizons of your magical senses contract to your nervous system's natural capacity.</end>
+  </Spell>
+  <Spell name="Piercing Gaze">
+    <type>Buff</type>
+    <shortCode>WHAT</shortCode>
+    <variable>spellPG</variable>
+    <manaType>Lunar</manaType>
+    <description>This needs the description, spell type, mana type and short code.</description>
+    <minMana>8</minMana>
+    <maxMana>55</maxMana>
+    <maxDuration>1180</maxDuration>
+    <baseDuration>192</baseDuration>
+    <durationModifier>0</durationModifier>
+    <start>The world around you brightens considerably.</start>
+    <start>The world around you wavers briefly, then brightens considerably.</start>
+    <end>The world around you returns to its mundane appearance.</end>
+  </Spell>
+  <Spell name="Protection from Evil">
+    <type>Buff</type>
+    <shortCode>pfe</shortCode>
+    <variable>spellPFE</variable>
+    <manaType>Holy</manaType>
+    <description>The Protection from Evil spell defends the faithful against the unholy touch of the Undead. It will also attempt to repel various varieties of magic including Necromancy, Sorcery, and all that employed by otherwise cursed or Undead beings. While not evil, attacks with origins in Holy magic or by minions of the dark gods are also buffered by this spell's pattern. Those with advanced skill in Primary Magic may find themselves able to cast this spell at their group, affecting all nearby with added difficulty. Depending on how skilled you are, the strength of the spell may be lessened compared to a singular weave of the pattern. 
+The strength of any singular weave of the spell is rooted in one's Primary Magic skill, with extra power simply lengthening its duration. 
+</description>
+    <minMana>1</minMana>
+    <maxMana>55</maxMana>
+    <maxDuration>1428</maxDuration>
+    <baseDuration>130</baseDuration>
+    <durationModifier>26</durationModifier>
+    <start>You are bathed in a soft white glow for a moment.</start>
+    <start>A soft white nimbus ebbs toward you, melding with your luminous aura.</start>
+    <end>The soft white glow fades from around you.</end>
+  </Spell>
+  <Spell name="Refresh">
+    <type>Buff</type>
+    <shortCode>WHAT</shortCode>
+    <variable>spellRefresh</variable>
+    <manaType>Lunar</manaType>
+    <description>This needs the description, spell type, mana type and short code.</description>
+    <minMana>0</minMana>
+    <maxMana>0</maxMana>
+    <maxDuration>0</maxDuration>
+    <baseDuration>0</baseDuration>
+    <durationModifier>0</durationModifier>
+    <start>Soft waves of a gentle, warm peach color flicker around you.</start>
+    <end>You feel the surge of energy within you ebb away</end>
+  </Spell>
+  <Spell name="Regenerate">
+    <type>Buff</type>
+    <shortCode>WHAT</shortCode>
+    <variable>spellRegenerate</variable>
+    <manaType>Lunar</manaType>
+    <description>This needs the description, spell type, mana type and short code.</description>
+    <minMana>0</minMana>
+    <maxMana>0</maxMana>
+    <maxDuration>0</maxDuration>
+    <baseDuration>0</baseDuration>
+    <durationModifier>0</durationModifier>
+    <start>Rutilant sparks of light encircle you, bathing you in a warm glow as your body begins to tingle with energy.</start>
+    <end>The tingling across your body diminishes as you feel the motes of energy fade away.</end>
+    <noReplace>You can already sense the effect of the Regenerate spell on your body.</noReplace>
+  </Spell>
+  <Spell name="Revelation">
+    <type>Buff</type>
+    <shortCode>rev</shortCode>
+    <variable>spellREV</variable>
+    <manaType>Holy</manaType>
+    <description>Divine Intervention patterns are active by nature and Revelation is no different. The spell attempts to root out hidden pockets of spiritual energy, which usually indicate the presence of an unseen person. While the auras that Revelation reveals are dispersed and nebulous, a perceptive mage may be able to track them down to their physical sources. Even outside the main function of the pattern, the caster may notice a modest increase to their perceptual ability due to the heightened spiritual awareness.</description>
+    <minMana>9</minMana>
+    <maxMana>60</maxMana>
+    <maxDuration>670</maxDuration>
+    <baseDuration>13</baseDuration>
+    <durationModifier>12.88</durationModifier>
+    <start>Wisps of pale grey light begin to coalesce as you attempt to intertwine your senses with the spiritual plane.</start>
+    <end>The heightened sense of spiritual awareness leaves you.</end>
+    <noReplace>The weave of your spell flows away from you, lost to the ether.</noReplace>
+  </Spell>
+  <Spell name="Seal of Deflection">
+    <type>Buff</type>
+    <shortCode>sodAT</shortCode>
+    <variable>spellSOD</variable>
+    <manaType>Lunar</manaType>
+    <description>Seal of Deflection deflects incoming offensive spells. It may be replaced anew with further casts, but its protection will drain down as it wears off. </description>
+    <minMana>5</minMana>
+    <maxMana>50</maxMana>
+    <maxDuration>660</maxDuration>
+    <baseDuration>120</baseDuration>
+    <durationModifier>0</durationModifier>
+    <start>A shifting plexus of glistening azure lines forms around you.</start>
+    <start>The shifting plexus of glistening azure lines reforms around you.</start>
+    <end>The glistening azure lines fade away.</end>
+  </Spell>
+  <Spell name="See the Wind">
+    <type>Buff</type>
+    <shortCode>stw</shortCode>
+    <variable>spellSTW</variable>
+    <manaType>Life</manaType>
+    <description>The See the Wind spell, sometimes called 'The Eyes That See the Wind,' invokes the hypersensitive instincts of the animal world, allowing the caster to judge wind currents well enough to improve his aim with a bow. Researchers argue on which specific type of animal and trait See the Wind mimics, but the usefulness is indisputable. </description>
+    <minMana>5</minMana>
+    <maxMana>60</maxMana>
+    <maxDuration>0</maxDuration>
+    <baseDuration>0</baseDuration>
+    <durationModifier>0</durationModifier>
+    <start>sense washes over you</start>
+    <end>The glowing lines fade away along with the See the Wind spell.</end>
+    <noReplace>You can't delineate the wind currents any better than before</noReplace>
+  </Spell>
+  <Spell name="Seer's Sense">
+    <type>Buff</type>
+    <shortCode>WHAT</shortCode>
+    <variable>spellSeer</variable>
+    <manaType>Lunar</manaType>
+    <description>This needs the description, spell type, mana type and short code.</description>
+    <minMana>10</minMana>
+    <maxMana>56</maxMana>
+    <maxDuration>1361</maxDuration>
+    <baseDuration>372</baseDuration>
+    <durationModifier>0</durationModifier>
+    <start>You feel oddly in tune with the webs of fate.</start>
+    <end>You no longer feel as strong a connection to the webs of fate</end>
+    <noReplace>You can sense no changes.</noReplace>
+  </Spell>
+  <Spell name="Senses of the Tiger">
+    <type>Buff</type>
+    <shortCode>sott</shortCode>
+    <variable>spellSOTT</variable>
+    <manaType>Life</manaType>
+    <description>Senses of the Tiger invokes the essence of its namesake, calling upon that great cat's ferally efficient hunting tactics. When under the effects of this spell, you will have improved reactions and a better ability to stalk... the very qualities of an untamed tiger. 
+Though the spell itself is quite a basic one, ideal for younger Rangers and their first foray into spellcasting, it is very difficult to extend its power with extra mana. </description>
+    <minMana>5</minMana>
+    <maxMana>60</maxMana>
+    <maxDuration>1490</maxDuration>
+    <baseDuration>254</baseDuration>
+    <durationModifier>22.47</durationModifier>
+    <start>Dark stripes form upon your</start>
+    <end>You feel your heightened reflexes and stalking prowess slip back to normal.</end>
+    <noReplace>The spell pattern from your last cast of the Senses of the Tiger spell is still upon you, and is unreceptive to this further cast.</noReplace>
+  </Spell>
+  <Spell name="Shadows">
+    <type>Buff</type>
+    <shortCode>WHAT</shortCode>
+    <variable>spellShadows</variable>
+    <manaType>Lunar</manaType>
+    <description>This needs the description, spell type, mana type and short code.</description>
+    <minMana>1</minMana>
+    <maxMana>60</maxMana>
+    <maxDuration>1371</maxDuration>
+    <baseDuration>134</baseDuration>
+    <durationModifier>0</durationModifier>
+    <start>There is a subtle change in the lighting around you</start>
+    <start>You notice the shadows about you briefly</start>
+    <end>You notice the shadows about you lightening, making it harder to conceal yourself</end>
+  </Spell>
+  <Spell name="Shear">
+    <type>Buff</type>
+    <shortCode>WHAT</shortCode>
+    <variable>spellShear</variable>
+    <manaType>Lunar</manaType>
+    <description>This needs the description, spell type, mana type and short code.</description>
+    <minMana>0</minMana>
+    <maxMana>0</maxMana>
+    <maxDuration>0</maxDuration>
+    <baseDuration>0</baseDuration>
+    <durationModifier>0</durationModifier>
+    <start>A globe of shimmering blue fire flickers into being around you.</start>
+    <start>The shimmering globe of blue fire surrounding you flickers.</start>
+    <end>The shimmering globe of blue fire suddenly extinguishes.</end>
+  </Spell>
+  <Spell name="Sphere of Protection">
+    <type>Buff</type>
+    <shortCode>sop</shortCode>
+    <variable>spellSOP</variable>
+    <manaType>Life</manaType>
+    <description>The Sphere of Protection spell increases the defensive ability of the person it protects, particularly toward offensive spells from the Life realm. At higher levels of skill, you will notice that this spell extends itself to all in your group, allowing you the ability to cover an entire zone of people.</description>
+    <minMana>5</minMana>
+    <maxMana>65</maxMana>
+    <maxDuration>0</maxDuration>
+    <baseDuration>0</baseDuration>
+    <durationModifier>0</durationModifier>
+    <start>A translucent sphere forms around you and shudders like a soap bubble.</start>
+    <start>The translucent sphere already around you</start>
+    <end>The translucent sphere around you suddenly pops like a soap bubble</end>
+  </Spell>
+  <Spell name="Spider Climb">
+    <type>Buff</type>
+    <shortCode>spc</shortCode>
+    <variable>spellSPC</variable>
+    <manaType>Life</manaType>
+    <description>The Spider Climb is the first in a series of spells that take on the aspects of insects. In particular, this one will enhance your ability to climb for a while.</description>
+    <minMana>8</minMana>
+    <maxMana>63</maxMana>
+    <maxDuration>1232</maxDuration>
+    <baseDuration>154</baseDuration>
+    <durationModifier>21</durationModifier>
+    <start>Your fingertips swell and grow slightly sticky</start>
+    <end>Your fingertips and knees return</end>
+  </Spell>
+  <Spell name="Sure Footing">
+    <type>Buff</type>
+    <shortCode>suf</shortCode>
+    <variable>spellSUF</variable>
+    <manaType>Elemental</manaType>
+    <description>The Sure Footing spell steadies the ground and soil beneath one's feet, resulting in improved balance in combat for a while and slightly improving one's climbing abilities.</description>
+    <minMana>6</minMana>
+    <maxMana>61</maxMana>
+    <maxDuration>0</maxDuration>
+    <baseDuration>0</baseDuration>
+    <durationModifier>0</durationModifier>
+    <start>You feel steadier.</start>
+    <end>You feel less steady, and realize that your Sure Footing spell has worn off.</end>
+  </Spell>
+  <Spell name="Swirling Winds">
+    <type>Buff</type>
+    <shortCode>sw</shortCode>
+    <variable>spellSW</variable>
+    <manaType>Elemental</manaType>
+    <description>The Swirling Winds spell summons the winds of Elanthia to surround you, increasing your ability to evade and parry attacks.</description>
+    <minMana>5</minMana>
+    <maxMana>60</maxMana>
+    <maxDuration>0</maxDuration>
+    <baseDuration>0</baseDuration>
+    <durationModifier>0</durationModifier>
+    <start>You harness the currents of air and channel them around yourself.</start>
+    <end>You feel the winds surrounding you disperse.</end>
+  </Spell>
+  <Spell name="Tenebrous Sense">
+    <type>Buff</type>
+    <shortCode>WHAT</shortCode>
+    <variable>spellTS</variable>
+    <manaType>Lunar</manaType>
+    <description>This needs the description, spell type, mana type and short code.</description>
+    <minMana>0</minMana>
+    <maxMana>0</maxMana>
+    <maxDuration>0</maxDuration>
+    <baseDuration>0</baseDuration>
+    <durationModifier>0</durationModifier>
+    <start>Your tactile sense stretches out and intertwines with the shadows around you.</start>
+    <end>Your tactile sense returns to normal.</end>
+  </Spell>
+  <Spell name="Vigil">
+    <type>Buff</type>
+    <shortCode>vigil</shortCode>
+    <variable>spellVigil</variable>
+    <manaType>Holy</manaType>
+    <description>Through discipline and focus, the Cleric learns to manipulate the ebb and flow of an energy foreign to all but fellow clergy -- the spirit. The Vigil spell will form a conduit of Holy essence between yourself and the target which will foster the passage of this spiritual energy. Whichever party lacks spirit while the other's cup overflows shall be the benefactor of this osmosis. This is especially useful to preserve the spirit of a fallen friend while ministering the rites of death. 
+Certain spiritual spells may be cast through this conduit, even if you are not in the same vicinity as the target, or the target is concealed. In this manner, spells such as Rejuvenation or Soul Bonding may aid a fallen friend from safety. 
+
+Alternately, the spell may be cast with no target. This will form a similar conduit of magical essence between yourself and the spiritual plane -- commonly referred to as the Starry Road -- to bolster your spirit's strength and the rate at which it recovers from harm.</description>
+    <minMana>6</minMana>
+    <maxMana>66</maxMana>
+    <maxDuration>1992</maxDuration>
+    <baseDuration>95</baseDuration>
+    <durationModifier>36.4</durationModifier>
+    <start>Your spirit sings with a sudden added vigor.</start>
+    <end>Your spirit grows colder as its enhanced vigor begins to wane.</end>
+  </Spell>
+  <Spell name="Wisdom of the Pack">
+    <type>Buff</type>
+    <shortCode>wotp</shortCode>
+    <variable>spellWOTP</variable>
+    <manaType>Life</manaType>
+    <description>The Wisdom of the Pack spell shares the gained knowledge of wolf packs throughout the realms, passing on basic knowledge of governing oneself better. At higher levels of magic skill the spell offers an insight into traps and animalkind.</description>
+    <minMana>8</minMana>
+    <maxMana>50</maxMana>
+    <maxDuration>1175</maxDuration>
+    <baseDuration>251</baseDuration>
+    <durationModifier>22</durationModifier>
+    <start>The overwhelming sense of unity</start>
+    <start>The unity of the pack fills you,</start>
+    <end>With a slight jolt, you suddenly feel disconnected from the pack</end>
+  </Spell>
+  <Spell name="Wolf Scent">
+    <type>Buff</type>
+    <shortCode>6ws</shortCode>
+    <variable>spellWS</variable>
+    <manaType>Life</manaType>
+    <description>The Wolf Scent spell enhances one's sense of smell, improving the ability to find plants and herbs when foraging. With more skill, one may find that this spell will also help your perception, and with yet greater skill, may aid your scouting abilities.</description>
+    <minMana>5</minMana>
+    <maxMana>60</maxMana>
+    <maxDuration>1352</maxDuration>
+    <baseDuration>252</baseDuration>
+    <durationModifier>20</durationModifier>
+    <start>Your sense of smell sharpens</start>
+    <end>Your sense of smell returns to normal.</end>
+    <noReplace>You don't feel any of your senses improve any further</noReplace>
+  </Spell>
+</Spells>
