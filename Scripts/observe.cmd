@@ -30,7 +30,7 @@ castPG:
 put #script pause all except observe
 put yes
 wait
-put prep pg 8 
+put prep pg 8
 waitfor You feel fully prepared 
 put cast
 put #script resume all
@@ -64,8 +64,6 @@ var LOCAL
 predict:
 if (%t >= %PREDICT_TIME && $Astrology.LearningRate < 24) then
 {
-  var PREDICT_TIME %t
-  math PREDICT_TIME add 600
   if (length("%LOCAL") = 0) then var LOCAL %skillset1
   else {
     if (%LOCAL = %skillset1 && length("%skillset2") > 0) then var LOCAL %skillset2
@@ -83,11 +81,14 @@ if (%t >= %PREDICT_TIME && $Astrology.LearningRate < 24) then
   }
   matchre predict no|feeble|weak
   matchre predictFuture fledgling|modest|decent|significant|potent|insightful|powerful|complete
-  put predict state %LOCAL
+  send predict state %LOCAL
   matchwait 5
   goto predict
 
   predictFuture:
+
+  var PREDICT_TIME %t
+  math PREDICT_TIME add 600
   send predict future $charactername %LOCAL
   waitfor the mists of time begin to part
   put predict analyze
