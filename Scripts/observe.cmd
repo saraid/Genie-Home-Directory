@@ -92,12 +92,13 @@ if (%t >= %PREDICT_TIME && $Astrology.LearningRate < 24) then
   send predict future $charactername %LOCAL
   waitfor the mists of time begin to part
   put predict analyze
+  pause
 }
 
 wait:
 if ($Astrology.LearningRate < 33 && %t >= %OBSERVE_TIME) then goto start
 pause 10
-put study sky
+if ($Astrology.LearningRate < 24 || toupper("$AstrologyTrainer.MindLock" = "ON") then put study sky
 pause 10
 if (%INDOORS = 0) then put predict weather
 pause 10
